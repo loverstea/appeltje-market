@@ -1,0 +1,98 @@
+.text {
+    width: 256px; 
+    font-family: Open Sans; 
+    font-size: 16px; 
+    line-height: 24px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; 
+}
+.logo {
+  position: absolute; 
+  top: 19px; 
+  left: 56px; 
+  width: 56px; 
+  font-family: Borel; 
+  font-size: 25px; 
+  line-height: 25px; 
+  font-weight: 700; 
+  color: #58A446FF; 
+}
+
+.menu {
+  display: flex;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: blue;
+  }
+/* Button */
+.button {
+    width: 256px; 
+    height: 40px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Open Sans; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 500; 
+    color: #323742FF; 
+    background: #F3F4F6FF; 
+    opacity: 1; 
+    border: none; 
+    border-radius: 3px; 
+  }
+  /* Hover */
+  .button:hover {
+    color: #323742FF; 
+    background: #B8BECAFF; 
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #323742FF; 
+    background: #8791A5FF; 
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
+
+
+/* Home */
+.page {
+    position: absolute;
+    
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    
+    background: #FFFFFFFF; /* white */
+}
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 64px;
+    background: #FFFFFFFF;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 1px , 0px 0px 2px #171a1f14;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    top: 1404px; 
+    left: 0px; 
+    width: 100%;
+    height: 305px;
+    background: linear-gradient(90deg, #58A446FF 0%, #4186B4FF 100%);
+    border-radius: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
