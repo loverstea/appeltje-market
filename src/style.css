@@ -6,6 +6,47 @@
     color: #FFFFFFFF;
 }
 
+.container .button {
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Open Sans; 
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 500; 
+  color: #FFFFFFFF; /* white */
+  background: #58A446FF; 
+  opacity: 1; 
+  border: none; 
+  border-radius: 3px; 
+}
+.container .button:hover {
+  color: #FFFFFFFF; /* white */
+  background: #468438FF;
+}
+.container .button:hover:active {
+  color: #FFFFFFFF; /* white */
+  background: #37682CFF; 
+}
+.container .button:disabled {
+  opacity: 0.4; 
+}
+.container h1{
+  font-size: 60px; 
+  line-height: 60px; 
+  font-weight: 800; 
+  color: #19191FFF;
+}
+.container p {
+  font-size: 20px; 
+  line-height: 28px; 
+  font-weight: 400; 
+  color: #19191FFF; 
+}
+.container button {
+  width: 200px;
+}
 .container {
   top: 64px;
   left: 0px;
@@ -147,5 +188,10 @@ header p {
   display:flex;
 }
 
+.flex-space {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 
