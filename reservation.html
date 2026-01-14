@@ -35,7 +35,7 @@
 
     </div>
     
-    <div class="flex">
+    <div class="flex-wrap-down">
         <h2>
             Reserve Your Groceries
         </h2>
@@ -50,11 +50,21 @@
                     <input type="text" placeholder="Select a store" required></li>
                 <li><h3>Preferred Pickup Date</h3>
                     <input type="date" required></li>
-                <li><h3>Your Contact Details</h3>
-                    <input type="text" placeholder="John Doe" required>
-                    <input type="text" placeholder="(123) 456-7890" required></li>
+                <li><div class="flex-down">
+
+                    <h3>Your Contact Details</h3>
+                    <div>
+                        <p>Name</p>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div>
+                        <p>Phone</p>
+                        <input type="text" placeholder="(123) 456-7890" required>
+                    </div>
+                </div>
+            </li>
             </ol>
-            <input type="submit" value="Confirm Reservation"> 
+            <input type="submit" value="Confirm Reservation">
         </form>
 
     </div>
