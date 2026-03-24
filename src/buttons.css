@@ -1,0 +1,39 @@
+/* Button */
+.button {
+    width: 110.5625px; 
+    height: 40px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 500; 
+    color: #58A446FF; 
+    background: #FFFFFFFF; /* white */
+    opacity: 1; 
+    border-radius: 3px; 
+    border-width: 1px; 
+    border-color: #DEE1E6FF; /* neutral-300 */
+    border-style: solid; 
+    gap: 8px; 
+  }
+  .button .icon {
+    width: 16px; 
+    height: 16px; 
+    fill: #58A446FF; 
+  }
+  /* Hover */
+  .button:hover {
+    color: #58A446FF; 
+    background: #FFFFFFFF; /* white */
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #58A446FF; 
+    background: #FFFFFFFF; /* white */
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
