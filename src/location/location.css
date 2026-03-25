@@ -1,0 +1,7 @@
+.image {
+    /*width: 380px;*/
+    height: 160px;
+    border-radius: 3px;
+    aspect-ratio: 4 / 2;
+    object-fit: cover;
+}
